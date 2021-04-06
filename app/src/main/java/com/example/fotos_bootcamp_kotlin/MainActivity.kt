@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                     requestPermissions(permission, PERMISSION_CODE)
                 }
                 else {
-
+                    pickImageFromGalery()
                 }
             } else {
                 pickImageFromGalery()
